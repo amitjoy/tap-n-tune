@@ -1,0 +1,77 @@
+* { margin:0; padding:0; border:0 none; outline:none; }
+html, body { font:12px Tahoma, Arial, Helvetica, sans-serif; color:#999; background:#f3f3f3; }
+a img { border:0 none; }
+abbr { cursor:help }
+
+input, select, option, submit, button, reset, textarea
+{ font:12px Tahoma, Arial, Helvetica, sans-serif; padding:3px; }
+option { padding:0 }
+
+a { color:#036; text-decoration:none }
+a:hover { color:#09c }
+
+.main { width:100%; margin:0 auto; padding:0 0 30px 0; }
+
+#_loginForm { position:absolute; width:220px; left:50%; top:50%; padding:20px; margin:-100px 0 0 -130px; background:#fff; -moz-border-radius:15px; -khtml-border-radius:15px; -webkit-border-radius:15px; -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6); -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6); }
+#_loginForm h1 { padding:0 0 10px 0; font-size:16px; color:#000; }
+#_loginForm p { padding:5px 0; clear:both; color:#999; }
+#_loginForm p label { display:block; }
+#_loginForm p .tf { border:1px solid #ccc; width:210px; color:#999; }
+#_loginForm p .submit { background:#333; margin:10px 0 0 0; color:#fff; padding:5px 10px; -moz-border-radius:5px; -khtml-border-radius:5px; -webkit-border-radius:5px; cursor:pointer; }
+#_loginForm p._error { color:#c00; }
+
+._header { padding:10px 20px; }
+._header h1 { padding:10px 0 0 0; margin:0; font-size:20px; color:#000; clear:both; }
+._header h1 span { display:block; padding:2px 0 0 0; font-size:11px; color:#999; }
+._header #_langs { padding:2px 0 0 0; }
+._header #_langs a { width:auto; font-size:10px; padding:1px 3px; background:#fff; margin:0 3px 0 0; color:#039; float:left; display:inline; border:1px solid #333; }
+._header #_langs a.selected,
+._header #_langs a:hover { background:#333; color:#ccc; }
+
+._menu { width:220px; padding:10px; background:#fff; font-size:13px; }
+._menu a { display:block; padding:4px 10px; color:#000; text-decoration:none; margin:0; -moz-border-radius:7px; -khtml-border-radius:7px; -webkit-border-radius:7px; }
+._menu a:hover { color:#fff; background:#000; }
+._menu a.logout { color:#900; font-weight:bold; }
+._menu a.logout:hover { color:#fc0 }
+._menu a#mensel { color:#fff; background:#555; }
+._menu .submeniu a { color:#999; font-size:11px; padding:2px 7px 2px 20px }
+._menu a#submensel { color:#fff; background:#151515; }
+
+._content { padding:0 20px }
+._content ._actionButtons { padding:13px 0 10px 0; height:30px; }
+._content ._actionButtons a { background:#ddd; width:auto; float:left; padding:3px 10px; margin:0 2px 0 0; display:inline; }
+._content ._actionButtons a:hover { background:#fff } 
+._content ._error { padding:10px 0; color:#c00 }
+
+._content #_filterZone { padding: 0 0 5px 0; clear:both; }
+._content #_filterZone p { padding:3px 0; }
+._content #_submitFilters { height:50px; display:none }
+._content #_submitFilters a#_applyFilters { background:#555; color:#ccc; float:left; padding:3px 10px; margin:0 2px 0 0; display:inline; }
+._content #_submitFilters a#_applyFilters:hover { background:#000; }
+._content #_submitFilters a#_applyFilters_fake { display:none }
+
+._content ._pages { clear:both; padding:20px 0 0 10px; margin:0; list-style:none; }
+._content ._pages li a { width:auto; padding:2px 10px; float:left; margin:0 2px 0 0; color:#06f; background:#fff; display:inline; }
+._content ._pages li.selected a,
+._content ._pages li a:hover { color:#fff; background:#333 }
+
+
+._formtable { width:100%; }
+._formtable td { padding:5px 0; }
+._formtable .submit { background:#333; margin:0; color:#fff; padding:5px 15px; -moz-border-radius:5px; -khtml-border-radius:5px; -webkit-border-radius:5px; cursor:pointer; }
+._formtable ._fileLine { padding:2px 0; }
+
+._listing { width:100%; margin:0; padding:0; border-top:1px solid #ccc; border-left:1px solid #ccc; }
+._listing th,
+._listing td { border-right:1px solid #ccc; border-bottom:1px solid #ccc; padding:3px 5px; font-size:11px; text-align:left; }
+._listing .selected td { background:#fed !important; }
+._listing th { background:#e3e3e3; color:#000; }
+._listing th a { color:#039; }
+._listing th a:hover { color:#09f; }
+
+a._deletebutton { background:transparent; color:#c00; }
+a._deletebutton:hover { background:#fff; color:#f00; }
+
+._ck_yes { font-weight:bold; font-size:11px; color:#390; }
+._ck_no { font-weight:bold; font-size:11px; color:#c00; }
+#ui-datepicker-div { display:none }
